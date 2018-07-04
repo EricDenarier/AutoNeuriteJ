@@ -13,11 +13,6 @@ in a new subfolder "resultats"
 
 macro "segmentation  [F1]" {
 
-minNeuron=1000;
-NucleusDiameter=20;
-minDoG=1;
-maxDoG=100;
-
 
 
 Dialog.create("File names and parameter settings");
