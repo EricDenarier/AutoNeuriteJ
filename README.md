@@ -1,16 +1,18 @@
-AutoNeuriteJ
-To install the macro you need to copy the text file called "Neuron.lut" inside the "Luts" folder of Fiji/ImageJ.
+AutoNeuriteJ Installation :
+
+To install the macro you need to copy the text file called "Neuron.lut" in the "Luts" folder of Fiji/ImageJ.
 Run the macro entitled "AutoNeuriteJ (All in one)" with Fiji/ImageJ
 
-Note that tree other ImageJ/Fiji plugins are requested by the macro :
+Note that three other ImageJ/Fiji plugins are needed :
 
-The plugin "Analyze Skeleton 2D/3D"  Developped by Ignacio Arganda-Carreras http://imagej.net/AnalyzeSkeleton
-The plugin "MorphoLibJ" Developped by David Legland and Ignacio Arganda-Carreras https://imagej.net/MorphoLibJ
-The plugin "Morphology" from Gabriel Landini's website : http://www.mecourse.com/landinig/software/software.html
+"Analyze Skeleton 2D/3D"  Developped by Ignacio Arganda-Carreras http://imagej.net/AnalyzeSkeleton
+"MorphoLibJ" Developped by David Legland and Ignacio Arganda-Carreras https://imagej.net/MorphoLibJ
+"Morphology" from Gabriel Landini's website : http://www.mecourse.com/landinig/software/software.html
+They can all be intalled using Fiji update.
 
 More information:
 
-Running any part of the macro will ask for a few parameters to be filled such as location of your files directory, the size of the nucleus in your images, and keywords contained in the images names you want to analyse (in order to attribute the right image to nuclei staining and to neurons staining).
+Running the macro will ask for a few parameters to be filled up such as location of your image directory,specific names tthe approximate size of the nucleus in your images, and keywords contained in the images names you want to analyse (in order to attribute the right image to nuclei staining and to neurons staining).
 
             - Part 1 : image pre-treatment of your images in order to enhance the segmentation efficiency of the neurons.
 
